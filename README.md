@@ -12,26 +12,27 @@
 - Also have a Stripe account so you can get your SECRET STRIPE KEY.
 
 <h2>Video - https://www.youtube.com/watch?v=DBMPXJJfQEA</h2>
-- How to create a database with MongoDB - 3:38:27
-- Stripe Tutorial - 7:49:55
+
+- How to create a database with MongoDB - 3:38:27.
+- Stripe Tutorial - 7:49:55.
 
 
 # Installation
 
-## How to install/setup the FRONTEND
+<h1 align="center">How to install/setup the FRONTEND</h1>
 - Open a terminal in VS Code and go into the frontend folder and then run
--  > npm install
--  > npm run dev
+> npm install
+> npm run dev
 
 
-## How to install/setup the ADMIN Page
+<h1 align="center">How to install/setup the ADMIN Page</h1>
 - Open a terminal in VS Code and go into the admin folder and then run
--  > npm install
--  > npm run dev
+> npm install
+> npm run dev
    
-## How to install/setup the BACKEND
+<h1 align="center">How to install/setup the BACKEND</h1>
 - Open a terminal in VS Code and go into the backend folder and then run
--  > npm start server
+> npm start server
 
 
 ![Picture]()
