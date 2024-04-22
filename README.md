@@ -23,8 +23,6 @@
 
 > Open a terminal in VS Code and go into the frontend folder and then run
 
-<br>
-
 ```
 npm install
 npm run dev
