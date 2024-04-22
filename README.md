@@ -19,18 +19,18 @@
 
 # Installation
 
-<h1>How to install/setup the FRONTEND</h1>
+<h2>How to install/setup the FRONTEND</h2>
 - Open a terminal in VS Code and go into the frontend folder and then run
 > npm install
 > npm run dev
 
 
-<h1 align="center">How to install/setup the ADMIN Page</h1>
+<h2>How to install/setup the ADMIN Page</h2>
 - Open a terminal in VS Code and go into the admin folder and then run
 > npm install
 > npm run dev
    
-<h1 align="center">How to install/setup the BACKEND</h1>
+<h2>How to install/setup the BACKEND</h2>
 - Open a terminal in VS Code and go into the backend folder and then run
 > npm start server
 
