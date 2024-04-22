@@ -23,7 +23,7 @@
 
 > Open a terminal in VS Code and go into the frontend folder and then run
 
-<p>❗Open the frontend first [http://localhost:5173](http://localhost:5173) </p>
+❗Open the frontend first [http://localhost:5173](http://localhost:5173)
 
 
 ```
@@ -35,7 +35,8 @@ npm run dev
 <h2>How to install/setup the Admin Page</h2>
 
 > Open a terminal in VS Code and go into the admin folder and then run
->❗Open the admin after the frontend. [http://localhost:5174](http://localhost:5174)</p>
+
+❗Open the admin after the frontend. [http://localhost:5174](http://localhost:5174)
 
 ```
 npm install
