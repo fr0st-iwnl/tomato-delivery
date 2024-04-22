@@ -23,7 +23,7 @@
 
 > Open a terminal in VS Code and go into the frontend folder and then run
 
-❗Open the frontend first [http://localhost:5173](http://localhost:5173)
+>❗Open the frontend first [http://localhost:5173](http://localhost:5173)
 
 
 ```
