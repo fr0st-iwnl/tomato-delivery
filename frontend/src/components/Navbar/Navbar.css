@@ -1,0 +1,294 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar button{
+    background: transparent;
+    font-size: 15px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+.navbar-profile{
+    position: relative;
+}
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid tomato;
+    outline: 2px solid white;
+    list-style: none;
+}
+
+
+:root .navbar-profile:hover .nav-profile-dropdown{
+    color: white;
+    background-color: var(--body-color);
+    border: 1px solid tomato;
+    outline: 2px solid white;
+}
+
+.lightcolors .navbar-profile:hover .nav-profile-dropdown{
+    color: black;
+    background-color: #fff2ef;
+    border: 1px solid tomato;
+    outline: 2px solid white;
+}
+
+.nav-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav-profile-dropdown img {
+    width: 20px;
+}
+
+.nav-profile-dropdown li:hover{
+    color: tomato;
+}
+
+#visual-toggle-button{
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* checkbox */
+#visual-toggle{
+    appearance: none;
+    display: none;
+}
+
+.svgIcon-toggle{
+    width: 25px;
+}
+
+.moon-svg{
+    width: 13px;
+    position: absolute;
+    transition: all .3s;
+}
+.sun-svg{
+    opacity: 0;
+    transition: all .3s;
+}
+.lightmode .sun-svg{
+    filter: brightness(0);
+    transform: rotate(180deg);
+    opacity: 1;
+}
+.lightmode .moon-svg{
+    opacity: 0;
+}
+.animate .moon-svg{
+    transform: rotate(360deg);
+    transition: all .3s;
+}
+
+
+:root {
+    --input-color: black; /* Define custom color for input elements */
+    --background-root: black;
+    --border-root: 2px solid white;
+    --padding-root: 10px;
+    --upload: brightness(1) invert(1); /* Added a custom variable */
+    --logos-filter: brightness(0) invert(1); /* Added a custom variable */
+    --sidebar: black;
+    --border-color: #27272a;
+    --nav-color-one: #0d0d179a;
+    --nav-color-two: #0d0618;
+    --body-color: #121212;
+    --dark-text: #101010;
+    --light-text: #ffffff;
+    --light-text-secondary: #b9b9b9;
+    --light-text-desc: #d8d8d8;
+}
+
+/* For lightcolors */
+.lightcolors {
+    --sidebar: #fff0ed;
+    --body-color: #FFFFFF;
+    --dark-text: #fff;
+    --light-text: #101010;
+    --nav-color-two: #f6f6f2;
+    --nav-color-one: #f1f1f17e;
+    --border-color: #ddd;
+    --light-text-secondary: #464853;
+    --light-text-desc: #020202;
+    --cards-text-color: #fff; /* White text color for cards container */
+}
+
+:root .logo {
+    filter: var(--logos-filter); 
+}
+
+.lightcolors .logo {
+    filter: none; 
+}
+
+:root .navbar-menu .active{
+    border-bottom: 2px solid white;
+}
+
+.lightcolors .navbar-menu .active{
+    border-bottom: 2px solid #49557e;
+}
+
+
+:root .navbar-menu {
+    color: white; 
+}
+
+.lightcolors .navbar-menu {
+    color: #49557e; 
+}
+
+:root .basketlogo {
+    filter: var(--logos-filter); 
+}
+
+.lightcolors .basketlogo {
+    filter: none; 
+}
+:root img.white-filter {
+    filter: var(--logos-filter); 
+}
+
+.lightcolors img.white-filter {
+    filter: none; 
+}
+
+:root .signbutton{
+    color: white
+}
+
+:root .signbutton:hover{
+    color: black;
+}
+
+
+
+.lightcolors .signbutton {
+    color: #49557e; 
+}
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar .logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    .navbar-menu{
+        display: none;
+    }
+}
