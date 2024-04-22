@@ -21,8 +21,7 @@
 
 <h2>How to install/setup the FRONTEND</h2>
 - Open a terminal in VS Code and go into the frontend folder and then run
-
-
+<br>
 ```
 npm install
 npm run dev
@@ -31,12 +30,18 @@ npm run dev
 
 <h2>How to install/setup the ADMIN Page</h2>
 - Open a terminal in VS Code and go into the admin folder and then run
-> npm install
-> npm run dev
+<br>
+```
+npm install
+npm run dev
+```
    
 <h2>How to install/setup the BACKEND</h2>
 - Open a terminal in VS Code and go into the backend folder and then run
-> npm start server
+<br>
+```
+npm start server
+```
 
 
 ![Picture]()
