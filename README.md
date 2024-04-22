@@ -19,7 +19,7 @@
 
 # Installation
 
-<h1 align="center">How to install/setup the FRONTEND</h1>
+<h1>How to install/setup the FRONTEND</h1>
 - Open a terminal in VS Code and go into the frontend folder and then run
 > npm install
 > npm run dev
